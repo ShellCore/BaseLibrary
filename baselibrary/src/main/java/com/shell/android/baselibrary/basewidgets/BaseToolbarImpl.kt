@@ -3,7 +3,7 @@ package com.shell.android.baselibrary.basewidgets
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.Toolbar
 
-class BaseToolbarImpl : AppCompatActivity(), BaseToolbar {
+open class BaseToolbarImpl : AppCompatActivity(), BaseToolbar {
 
     var _toolbar : Toolbar? = null
 
